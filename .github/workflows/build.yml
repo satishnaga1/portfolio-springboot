@@ -37,5 +37,5 @@ jobs:
           context: .
           push: true
           tags: |
-            ${{ secrets.DOCKERHUB_USERNAME }}/portfolio-springboot:latest
+            ${{ secrets.DOCKERHUB_USERNAME }}/portfolio-springboot:newlatest
             ${{ secrets.DOCKERHUB_USERNAME }}/portfolio-springboot:${{ github.sha }}
